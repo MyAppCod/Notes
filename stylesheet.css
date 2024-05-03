@@ -1,0 +1,82 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(95deg, #e3fcd7, #e7bee7);
+    color: #ffe;
+    padding: 4%;
+    padding-left: 8%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Jaro:opsz@6..72&family=Jersey+20&family=Jersey+25&family=Lugrasimo&display=swap');
+
+* {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    color: #d494d5;
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 2px 3px 4px rgb(73, 4, 38);
+}
+
+.container h1 img {
+    width: 85px;
+}
+
+.container button img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.container button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#b5e2d5, #c3b3d7);
+    color: #fff;
+    font-size: x-large;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 8px 20px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 #485d44;
+}
+
+button:hover {
+    color: black;
+}
+
+.notescontainer {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    column-gap: 25px;
+}
+
+.inputbox {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    min-height: 250px;
+    background: #fff;
+    color: #3a2121;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 4px 7px 10px 2px #c1bdbf;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inputbox img {
+    width: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
